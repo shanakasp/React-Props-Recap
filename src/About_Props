@@ -1,0 +1,18 @@
+Props is a short term for "properties"
+
+Main usage is pass from a parent component to a child component. This makes
+react components reusable.
+Write the code once then Reuse it.
+These are read only and cannot be modified within the child component.
+From this we can reuse the same code again and again.
+props are passing from top to bottom.
+
+When you using props with class functions then you have to 
+use this.props term. This happend when you use class components only.
+In React, class components are a way to create and manage components 
+using ES6 classes. Class components were the primary way of creating 
+components in React before the introduction of hooks with React 16.8.
+ Though hooks have gained popularity and are now the recommended way 
+ to write components, class components are still valid and can be 
+ found in legacy codebases or projects that have not yet migrated to 
+ using hooks.
