@@ -1,19 +1,11 @@
-
+// App.js
 import './App.css';
-import Product from './Product';
+import ProductDetails from './ProductDetails';
 
 function App() {
   return (
     <div className="App">
-      <Product name ='Amazon' 
-      description='Online Platform' 
-      price ={60}/>
-        <Product name ='Apple' 
-      description='Best Product' 
-      price ={600}/>
-        <Product name ='Asus' 
-      description='Computers' 
-      price ={1000}/>
+      <ProductDetails />
     </div>
   );
 }
